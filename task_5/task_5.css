@@ -1,0 +1,29 @@
+.container {
+    width: 220px;
+    height: 1000px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    background-color: lightskyblue;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.text {
+    text-align: center;
+    display: none;
+}
+.list {
+    margin-left: -20px;
+}
+.item {
+    margin-top: 10px;
+}
+.completed {
+    text-decoration:line-through;
+}
